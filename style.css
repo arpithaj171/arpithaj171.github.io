@@ -5,6 +5,23 @@
     box-sizing: border-box;
 }
 
+/* ===== H1 Heading Size ===== */
+.my-heading {
+    font-size: 28px; /* smaller and more readable */
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+/* Optional: smaller size on mobile */
+@media (max-width: 768px) {
+    .my-heading {
+        font-size: 24px;
+        text-align: center; /* optional for hero section */
+    }
+}
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f5f7fa;
