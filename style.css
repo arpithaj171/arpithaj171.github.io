@@ -7,15 +7,16 @@
 
 /* ===== H1 Heading Size ===== */
 .my-heading {
-    font-size: 28px; /* smaller and more readable */
-    font-weight: 700;
-    color: #111;
+    font-size: 23px; /* smaller and more readable */
+    font-weight: 500;
+    color: #4e3b3b;
     margin-bottom: 20px;
 }
+.greet-heading,
 h1 {
-    font-size: 25px; /* smaller and more readable */
-    font-weight: 700;
-    color: #111;
+    font-size: 23px; /* smaller and more readable */
+    font-weight: 500;
+    color: #4e3b3b;
     margin-bottom: 20px;
 }
 
@@ -36,7 +37,7 @@ h2 {
 }
 
 /* H3 / Sub-Heading inside cards or sections */
-.greet-heading,
+
 h3 {
     font-size: 19px;
     font-weight: 600;
@@ -51,6 +52,8 @@ body {
     background: #f5f7fa;
     color: #333;
     line-height: 1.6;
+    margin: 40px;        /* adds space around the entire page */
+    padding: 20px;       /* optional, inner spacing */
 }
 
 /* ===== Container ===== */
