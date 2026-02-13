@@ -21,6 +21,24 @@
     }
 }
 
+/* H2 / Section Heading */
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 16px;
+}
+
+/* H3 / Sub-Heading inside cards or sections */
+.greet-heading,
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #007bff; /* consistent blue for cards */
+    margin-bottom: 12px;
+}
+
+
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
