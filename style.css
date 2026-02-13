@@ -1,0 +1,78 @@
+/* ===== Global Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== Container ===== */
+.contact-content {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+/* ===== Section Heading ===== */
+.greet-heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+/* ===== Card Layout ===== */
+.my-row {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.my-col {
+    flex: 1 1 300px;
+}
+
+.my-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.my-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Icon + Heading Row ===== */
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.card-header i {
+    font-size: 22px;
+    background: #eaf3ff;
+    color: #007bff;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+/* ===== Heading Styling ===== */
+.blue-text {
+    color: #007bff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* ===== Paragraph Styling ====*
