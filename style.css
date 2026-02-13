@@ -12,6 +12,12 @@
     color: #111;
     margin-bottom: 20px;
 }
+h1 {
+    font-size: 25px; /* smaller and more readable */
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 20px;
+}
 
 /* Optional: smaller size on mobile */
 @media (max-width: 768px) {
@@ -23,7 +29,7 @@
 
 /* H2 / Section Heading */
 h2 {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 600;
     color: #222;
     margin-bottom: 16px;
@@ -32,7 +38,7 @@ h2 {
 /* H3 / Sub-Heading inside cards or sections */
 .greet-heading,
 h3 {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
     color: #007bff; /* consistent blue for cards */
     margin-bottom: 12px;
